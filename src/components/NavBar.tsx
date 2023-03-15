@@ -11,8 +11,8 @@ const NavBar = ({ onSearch }: Props) => {
   return (
     <HStack padding="10px">
       <Image
-        src="https://cdn-icons-png.flaticon.com/512/8559/8559452.png"
-        boxSize="50px"
+        src="https://cdn-icons-png.flaticon.com/512/1722/1722368.png"
+        boxSize="40px"
       />
       <SearchInput onSearch={onSearch} />
       <ColorModeSwitch />
